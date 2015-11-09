@@ -1,0 +1,19 @@
+/* Adapting tabs to navbar */
+.tabs {
+	width: 45% !important;
+	background-color: inherit;
+	height: inherit;
+}
+
+.tabs .tab {
+	height: inherit;
+	line-height: inherit;
+}
+
+.tabs .tab a {
+	color: #fff;
+}
+
+.tabs .indicator {
+    background-color: #80deea;
+}
