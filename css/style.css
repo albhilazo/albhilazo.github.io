@@ -1,3 +1,10 @@
+body {
+	background-color: #E9F0F5;
+}
+
+
+
+
 /* Adapting tabs to navbar */
 .tabs {
 	width: 45% !important;
@@ -16,4 +23,19 @@
 
 .tabs .indicator {
     background-color: #80deea;
+}
+
+
+
+
+/* Sticky footer (http://materializecss.com/footer.html) */
+body {
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
 }
