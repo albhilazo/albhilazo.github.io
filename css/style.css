@@ -28,6 +28,84 @@ body {
 
 
 
+/* Customs */
+.row .resume-section.col {
+	padding: 0 1.5rem;
+}
+
+.resume-section-header {
+	color: #006064;
+	font-weight: 400;
+	font-size: 2.5rem;
+	margin-top: 3rem;
+	border-bottom: 2px solid rgba(0, 96, 100, 0.5);
+}
+
+.btn {
+	margin-bottom: 8px;
+}
+
+.chip {
+	margin-top: 5px;
+}
+
+
+
+
+/* Timeline */
+.cd-timeline-content-header {
+	color: #303e49;
+	font-size: 1.25rem;
+}
+
+.cd-timeline-img i {
+    color: #fff;
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+@media only screen and (min-width: 1170px) {
+  #cd-timeline::before {
+	left: 23%;
+  }
+  .cd-timeline-img {
+    left: 23%;
+  }
+  .cd-timeline-content {
+    width: 71%;
+  }
+  .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content {
+    float: right;
+  }
+  .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content::before {
+    top: 24px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: white;
+  }
+  .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content .cd-read-more {
+    float: right;
+  }
+  .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content .cd-date {
+    left: auto;
+	right: 116%;
+    text-align: right;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
+	right: 116%;
+  }
+}
+
+
+
+
 /* Sticky footer (http://materializecss.com/footer.html) */
 body {
 	display: -ms-flexbox;

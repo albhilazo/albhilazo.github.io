@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Albert Hilazo</title>
+
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/vertical-timeline.css">
   <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+  <script type="text/javascript" src="js/modernizr.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
@@ -19,7 +22,7 @@
         <ul id="nav-mobile" class="right tabs hide-on-med-and-down">
           <li class="tab"><a href="#about">About</a></li>
           <li class="tab"><a href="#projects">Projects</a></li>
-          <li class="tab"><a href="#resume">Resume</a></li>
+          <li class="tab"><a class="active" href="#resume">Resume</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -55,7 +58,86 @@
 
 
 
-        <article id="resume" class="col s12">Test 3</article>
+        <article id="resume" class="col s12">
+          <section class="resume-section col s12 l8">
+            <h2 class="resume-section-header">Education and Experience</h2>
+            <section id="cd-timeline">
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                  <i class="material-icons">school</i>
+                </div>
+                <div class="cd-timeline-content">
+                  <h3 class="cd-timeline-content-header">Master's Degree in High Performance Web Programming</h3>
+                  <p>Barcelona, Spain</p>
+                  <p>Coursing at La Salle Engineering University. Currently studying to become an expert in Web Development.</p>
+                  <span class="cd-date">Present</span>
+                </div>
+              </div>
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                  <i class="material-icons">account_balance</i>
+                </div>
+                <div class="cd-timeline-content">
+                  <h3 class="cd-timeline-content-header">Adjunct Lecturer at La Salle Open University</h3>
+                  <p>Barcelona, Spain</p>
+                  <p>Introduced 2nd year bachelor students to semantic HTML5, CSS3 and PHP in a development environment using Vagrant, Apache and MySQL.</p>
+                  <span class="cd-date">Oct 2015 - Present</span>
+                </div>
+              </div>
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                  <i class="material-icons">account_balance</i>
+                </div>
+                <div class="cd-timeline-content">
+                  <h3 class="cd-timeline-content-header">Teaching Assistant at La Salle Engineering University</h3>
+                  <p>Barcelona, Spain</p>
+                  <p>Guided and evaluated 3rd year engineering students in the practical load of the Web Projects subject.</p>
+                  <span class="cd-date">Feb 2013 - Sep 2015</span>
+                </div>
+              </div>
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                  <i class="material-icons">school</i>
+                </div>
+                <div class="cd-timeline-content">
+                  <h3 class="cd-timeline-content-header">Engineer's Degree in Computer Engineering</h3>
+                  <p>Barcelona, Spain</p>
+                  <p>Coursed at La Salle Engineering University.</p>
+                  <span class="cd-date">Jun 2015</span>
+                </div>
+              </div>
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                  <i class="material-icons">code</i>
+                </div>
+                <div class="cd-timeline-content">
+                  <h3 class="cd-timeline-content-header">Intern at T-Systems Iberia</h3>
+                  <p>Barcelona, Spain</p>
+                  <p>Participated in automation, monitoring and data integration tasks, in addition to developing intranet web applications that implied a noticeable performance improvement in some of the company departments.</p>
+                  <span class="cd-date">May 2013 - Jun 2015</span>
+                </div>
+              </div>
+
+              <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-picture">
+                  <i class="material-icons">account_balance</i>
+                </div>
+                <div class="cd-timeline-content">
+                  <h3 class="cd-timeline-content-header">Teaching Assistant at La Salle Engineering University</h3>
+                  <p>Barcelona, Spain</p>
+                  <p>Guided 1st year engineering students in the practical load of the Computer Programming introduction subject.</p>
+                  <span class="cd-date">Sep 2012 - Jun 2013</span>
+                </div>
+              </div>
+
+            </section>
+          </section>
+        </article>
 
 
 
@@ -106,6 +188,7 @@
 
   <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/vertical-timeline.js"></script>
 
 
 </body>
