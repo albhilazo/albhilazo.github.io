@@ -1,5 +1,5 @@
 body {
-	background-color: #E9F0F5;
+    background-color: #F0F0F0;
 }
 
 
@@ -7,18 +7,18 @@ body {
 
 /* Adapting tabs to navbar */
 .tabs {
-	width: 45% !important;
-	background-color: inherit;
-	height: inherit;
+    width: 45% !important;
+    background-color: inherit;
+    height: inherit;
 }
 
 .tabs .tab {
-	height: inherit;
-	line-height: inherit;
+    height: inherit;
+    line-height: inherit;
 }
 
 .tabs .tab a {
-	color: #fff;
+    color: #fff;
 }
 
 .tabs .indicator {
@@ -30,32 +30,54 @@ body {
 
 /* Customs */
 .row .resume-section.col {
-	padding: 0 1.5rem;
+    padding: 0 1.5rem;
+}
+
+.resume-section-card .card-title {
+    color: #006064;
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 1.25;
+    border-bottom: 1px solid rgba(160,160,160,0.2);
+    padding: 10px 20px 5px 20px;
+}
+
+.resume-section-card .btn {
+    margin-top: 1rem;
+}
+
+.resume-section-card ul {
+    margin: 0;
 }
 
 .resume-section-header {
-	color: #006064;
-	font-weight: 400;
-	font-size: 2.5rem;
-	margin-top: 3rem;
-	border-bottom: 2px solid rgba(0, 96, 100, 0.5);
-}
-
-.btn {
-	margin-bottom: 8px;
+    color: #006064;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    border-bottom: 2px solid rgba(0, 96, 100, 0.5);
 }
 
 .chip {
-	margin-top: 5px;
+    margin-top: 5px;
+    background-color: #e0f2f1;
 }
 
 
 
 
 /* Timeline */
+#cd-timeline {
+    margin-top: 0;
+}
+
 .cd-timeline-content-header {
-	color: #303e49;
-	font-size: 1.25rem;
+    color: #303e49;
+    font-size: 1.25rem;
+}
+
+.cd-timeline-img.cd-picture {
+    background-color: #26a69a;
 }
 
 .cd-timeline-img i {
@@ -72,13 +94,14 @@ body {
 
 @media only screen and (min-width: 1170px) {
   #cd-timeline::before {
-	left: 23%;
+    left: 23%;
   }
   .cd-timeline-img {
     left: 23%;
   }
   .cd-timeline-content {
     width: 71%;
+    background-color: #e0f2f1;
   }
   .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content {
     float: right;
@@ -88,18 +111,21 @@ body {
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: white;
+    border-right-color: #e0f2f1;
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    border-right-color: #e0f2f1;
   }
   .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content .cd-read-more {
     float: right;
   }
   .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content .cd-date {
     left: auto;
-	right: 116%;
+    right: 116%;
     text-align: right;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
-	right: 116%;
+    right: 116%;
   }
 }
 
@@ -108,14 +134,14 @@ body {
 
 /* Sticky footer (http://materializecss.com/footer.html) */
 body {
-	display: -ms-flexbox;
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 main {
-	flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 
@@ -123,147 +149,147 @@ main {
 
 /* Social font */
 @font-face {
-	font-family: 'social';
-	src:url('../font/social/social.eot?2adcvf');
-	src:url('../font/social/social.eot?2adcvf#iefix') format('embedded-opentype'),
-		url('../font/social/social.ttf?2adcvf') format('truetype'),
-		url('../font/social/social.woff?2adcvf') format('woff'),
-		url('../font/social/social.svg?2adcvf#social') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'social';
+    src:url('../font/social/social.eot?2adcvf');
+    src:url('../font/social/social.eot?2adcvf#iefix') format('embedded-opentype'),
+        url('../font/social/social.ttf?2adcvf') format('truetype'),
+        url('../font/social/social.woff?2adcvf') format('woff'),
+        url('../font/social/social.svg?2adcvf#social') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-	font-family: 'social';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+    font-family: 'social';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-git-branch:before {
-	content: "\f020";
+    content: "\f020";
 }
 .icon-git-commit:before {
-	content: "\f01f";
+    content: "\f01f";
 }
 .icon-git-compare:before {
-	content: "\f0ac";
+    content: "\f0ac";
 }
 .icon-git-merge:before {
-	content: "\f023";
+    content: "\f023";
 }
 .icon-git-pull-request:before {
-	content: "\f009";
+    content: "\f009";
 }
 .icon-globe:before {
-	content: "\f0b6";
+    content: "\f0b6";
 }
 .icon-location:before {
-	content: "\f060";
+    content: "\f060";
 }
 .icon-lock:before {
-	content: "\f06a";
+    content: "\f06a";
 }
 .icon-mark-github:before {
-	content: "\f00a";
+    content: "\f00a";
 }
 .icon-mortar-board:before {
-	content: "\f0d7";
+    content: "\f0d7";
 }
 .icon-octoface:before {
-	content: "\f008";
+    content: "\f008";
 }
 .icon-repo:before {
-	content: "\f001";
+    content: "\f001";
 }
 .icon-repo-clone:before {
-	content: "\f04c";
+    content: "\f04c";
 }
 .icon-repo-force-push:before {
-	content: "\f04a";
+    content: "\f04a";
 }
 .icon-repo-forked:before {
-	content: "\f002";
+    content: "\f002";
 }
 .icon-repo-pull:before {
-	content: "\f006";
+    content: "\f006";
 }
 .icon-repo-push:before {
-	content: "\f005";
+    content: "\f005";
 }
 .icon-terminal:before {
-	content: "\f0c8";
+    content: "\f0c8";
 }
 .icon-stack:before {
-	content: "\e900";
+    content: "\e900";
 }
 .icon-embed:before {
-	content: "\e901";
+    content: "\e901";
 }
 .icon-embed2:before {
-	content: "\e902";
+    content: "\e902";
 }
 .icon-terminal2:before {
-	content: "\e903";
+    content: "\e903";
 }
 .icon-twitter:before {
-	content: "\e904";
+    content: "\e904";
 }
 .icon-twitter2:before {
-	content: "\e905";
+    content: "\e905";
 }
 .icon-twitter3:before {
-	content: "\e906";
+    content: "\e906";
 }
 .icon-github:before {
-	content: "\e907";
+    content: "\e907";
 }
 .icon-github2:before {
-	content: "\e908";
+    content: "\e908";
 }
 .icon-github3:before {
-	content: "\e909";
+    content: "\e909";
 }
 .icon-github4:before {
-	content: "\e90a";
+    content: "\e90a";
 }
 .icon-tux:before {
-	content: "\e90b";
+    content: "\e90b";
 }
 .icon-linkedin:before {
-	content: "\e90c";
+    content: "\e90c";
 }
 .icon-linkedin2:before {
-	content: "\e90d";
+    content: "\e90d";
 }
 .icon-stackoverflow:before {
-	content: "\e90e";
+    content: "\e90e";
 }
 .icon-html5:before {
-	content: "\e90f";
+    content: "\e90f";
 }
 .icon-git:before {
-	content: "\e910";
+    content: "\e910";
 }
 .icon-chrome:before {
-	content: "\e911";
+    content: "\e911";
 }
 .icon-firefox:before {
-	content: "\e912";
+    content: "\e912";
 }
 .icon-IE:before {
-	content: "\e913";
+    content: "\e913";
 }
 .icon-opera:before {
-	content: "\e914";
+    content: "\e914";
 }
 .icon-safari:before {
-	content: "\e915";
+    content: "\e915";
 }
