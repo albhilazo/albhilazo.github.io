@@ -125,13 +125,18 @@ body {
     background-color: rgba(0, 96, 100, 0.9);
 }
 
-.resume-section-card .card-title {
+.resume-section-card .card-title:not(.card-image-title) {
     color: #006064;
     font-weight: 400;
     font-size: 1.75rem;
     line-height: 1.25;
     border-bottom: 1px solid rgba(160,160,160,0.2);
     padding: 10px 20px 5px 20px;
+}
+
+.resume-section-card .card-image-title {
+    line-height: 1rem;
+    background-color: rgba(0, 96, 100, 0.9);
 }
 
 .resume-section-card .btn {
