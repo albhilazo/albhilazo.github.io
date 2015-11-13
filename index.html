@@ -7,7 +7,7 @@
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
   <link type="text/css" rel="stylesheet" href="css/vertical-timeline.css">
-  <link type="text/css" rel="stylesheet" href="css/style.css" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
   <script type="text/javascript" src="js/modernizr.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -15,14 +15,16 @@
 <body>
 
 
-  <header class="page-header">
+  <header class="page-header z-depth-1">
     <nav class="navbar">
       <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">Albert Hilazo</a>
+        <a href="#" class="brand-logo">
+          <span class="logo-default">albhilazo</span>
+        </a>
         <ul id="nav-mobile" class="right tabs hide-on-med-and-down">
-          <li class="tab"><a href="#about">About</a></li>
+          <li class="tab"><a class="active" href="#about">About</a></li>
           <li class="tab"><a href="#projects">Projects</a></li>
-          <li class="tab"><a class="active" href="#resume">Resume</a></li>
+          <li class="tab"><a href="#resume">Resume</a></li>
           <li class="tab"><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -40,7 +42,27 @@
     <div class="container">
       <div class="row">
 
-        <article id="about" class="col s12">Test 1</article>
+        <article id="about" class="col s12">
+
+
+          <div class="row about-badge-row">
+            <div class="about-badge">
+              <p class="about-badge-content">
+                <span class="about-badge-name">Albert Hilazo</span>
+                <span class="about-badge-tagline">Web developer &amp; Linux enthusiast</span>
+              </p>
+            </div>
+          </div>
+
+          <section class="resume-section-card card col s12">
+            <div class="card-title">Who am I?</div>
+            <div class="card-content">
+              <p>Bla ble bli blo blu.</p>
+            </div>
+          </section>
+  
+
+        </article>
 
 
 
