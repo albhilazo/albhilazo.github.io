@@ -29,7 +29,11 @@ body {
 
 
 /* Customs */
-.brand-logo {
+.hidden {
+    display: none !important;
+}
+
+#brand-logo {
     font-family: courier;
 }
 
