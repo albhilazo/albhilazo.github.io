@@ -125,7 +125,7 @@ body {
     background-color: rgba(0, 96, 100, 0.9);
 }
 
-.resume-section-card .card-title:not(.card-image-title) {
+.resume-section-card .card-title:not(.card-image-title):not(.card-project-title) {
     color: #006064;
     font-weight: 400;
     font-size: 1.75rem;
@@ -159,6 +159,23 @@ body {
     color: rgba(0, 0, 0, 0.75);
     background-color: #e0f2f1;
     margin-top: 5px;
+}
+
+.page-header-row {
+    margin-bottom: 2.5rem;
+}
+
+.card-project .card-content p {
+    min-height: 3rem;
+}
+
+.card-project-title a {
+    color: #FFF;
+    display: block;
+}
+
+.card-project-title .icon-repo {
+    margin-top: 0.8rem;
 }
 
 
