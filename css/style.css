@@ -216,7 +216,6 @@ body {
   }
   .cd-timeline-content {
     width: 71%;
-    background-color: #e0f2f1;
   }
   .cd-timeline-block/*:nth-child(even)*/ .cd-timeline-content {
     float: right;
@@ -242,6 +241,19 @@ body {
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-date {
     right: 116%;
   }
+}
+.cd-timeline-content {
+    background-color: #e0f2f1;
+}
+.cd-timeline-content-header {
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+.cd-timeline-content .chip {
+    line-height: 28px;
+    border: 2px solid #26A69A;
+    margin-top: 0;
 }
 
 
