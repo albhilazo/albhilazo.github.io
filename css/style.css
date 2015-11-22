@@ -186,6 +186,20 @@ body {
     color: #006064;
 }
 
+.footer-links {
+    text-align: center;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+.footer-links a {
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
 
 
 
