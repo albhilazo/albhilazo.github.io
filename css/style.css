@@ -125,6 +125,10 @@ body {
     background-color: rgba(0, 96, 100, 0.9);
 }
 
+.sub-row {
+    margin-bottom: 20px;
+}
+
 .resume-section-card .card-title:not(.card-image-title):not(.card-project-title) {
     color: #006064;
     font-weight: 400;
