@@ -219,6 +219,7 @@ body {
 
 .cd-timeline-img i {
     color: #fff;
+    font-size: 24px;
     display: block;
     width: 24px;
     height: 24px;
@@ -299,11 +300,11 @@ main {
 /* Social font */
 @font-face {
     font-family: 'social';
-    src:url('../font/social/social.eot?2adcvf');
-    src:url('../font/social/social.eot?2adcvf#iefix') format('embedded-opentype'),
-        url('../font/social/social.ttf?2adcvf') format('truetype'),
-        url('../font/social/social.woff?2adcvf') format('woff'),
-        url('../font/social/social.svg?2adcvf#social') format('svg');
+    src:url('../font/social/social.eot?75jx1z');
+    src:url('../font/social/social.eot?75jx1z#iefix') format('embedded-opentype'),
+        url('../font/social/social.ttf?75jx1z') format('truetype'),
+        url('../font/social/social.woff?75jx1z') format('woff'),
+        url('../font/social/social.svg?75jx1z#social') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -322,98 +323,20 @@ main {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-git-branch:before {
-    content: "\f020";
-}
-.icon-git-commit:before {
-    content: "\f01f";
-}
-.icon-git-compare:before {
-    content: "\f0ac";
-}
-.icon-git-merge:before {
-    content: "\f023";
-}
-.icon-git-pull-request:before {
-    content: "\f009";
-}
-.icon-globe:before {
-    content: "\f0b6";
-}
-.icon-location:before {
-    content: "\f060";
-}
-.icon-lock:before {
-    content: "\f06a";
-}
-.icon-mark-github:before {
-    content: "\f00a";
-}
-.icon-mortar-board:before {
-    content: "\f0d7";
-}
-.icon-octoface:before {
-    content: "\f008";
+.icon-envelope:before {
+    content: "\e900";
 }
 .icon-repo:before {
     content: "\f001";
 }
-.icon-repo-clone:before {
-    content: "\f04c";
-}
-.icon-repo-force-push:before {
-    content: "\f04a";
-}
-.icon-repo-forked:before {
-    content: "\f002";
-}
-.icon-repo-pull:before {
-    content: "\f006";
-}
-.icon-repo-push:before {
-    content: "\f005";
-}
-.icon-terminal:before {
-    content: "\f0c8";
-}
-.icon-stack:before {
-    content: "\e900";
-}
-.icon-embed:before {
-    content: "\e901";
-}
-.icon-embed2:before {
-    content: "\e902";
-}
-.icon-terminal2:before {
-    content: "\e903";
+.icon-download:before {
+    content: "\e905";
 }
 .icon-twitter:before {
     content: "\e904";
 }
-.icon-twitter2:before {
-    content: "\e905";
-}
-.icon-twitter3:before {
-    content: "\e906";
-}
 .icon-github:before {
     content: "\e907";
-}
-.icon-github2:before {
-    content: "\e908";
-}
-.icon-github3:before {
-    content: "\e909";
-}
-.icon-github4:before {
-    content: "\e90a";
-}
-.icon-tux:before {
-    content: "\e90b";
-}
-.icon-linkedin:before {
-    content: "\e90c";
 }
 .icon-linkedin2:before {
     content: "\e90d";
@@ -421,24 +344,12 @@ main {
 .icon-stackoverflow:before {
     content: "\e90e";
 }
-.icon-html5:before {
-    content: "\e90f";
+.icon-school:before {
+    content: "\e259";
 }
-.icon-git:before {
-    content: "\e910";
+.icon-account_balance:before {
+    content: "\e265";
 }
-.icon-chrome:before {
-    content: "\e911";
-}
-.icon-firefox:before {
-    content: "\e912";
-}
-.icon-IE:before {
-    content: "\e913";
-}
-.icon-opera:before {
-    content: "\e914";
-}
-.icon-safari:before {
-    content: "\e915";
+.icon-code:before {
+    content: "\e284";
 }
