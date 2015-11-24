@@ -378,8 +378,11 @@
             <section class="resume-section col s12 l3 offset-l3">
               <div class="resume-section-card card">
                 <div class="card-title">Email</div>
-                <div class="card-content">
-                  <p>Address: <a href="mailto:albhilazo@gmail.com">albhilazo@gmail.com</a></p>
+                <div class="card-content contact-link">
+                  <a id="contact-email-show" class="contact-email-show waves-effect waves-light btn" href="#"><i class="icon-envelope right"></i>Show email</a>
+                </div>
+                <div id="contact-email-copy" class="contact-email-copy card-action hidden">
+                  <input type="text" readonly>
                 </div>
               </div>
             </section>
@@ -387,8 +390,8 @@
             <section class="resume-section col s12 l3">
               <div class="resume-section-card card">
                 <div class="card-title">LinkedIn</div>
-                <div class="card-content">
-                  <p>Check <a href="https://linkedin.com/in/albhilazo">my profile</a> and connect.</p>
+                <div class="card-content contact-link">
+                  <a class="waves-effect waves-light btn" href="https://linkedin.com/in/albhilazo"><i class="icon-linkedin2 right"></i>LinkedIn Profile</a>
                 </div>
               </div>
             </section>
@@ -431,8 +434,10 @@
           </ul>
         </div>
 
-        <div class="footer-email-col col s12 l3">
-          <input type="text" id="footer-email-copy" class="footer-email-copy grey-text text-lighten-3 hidden" readonly>
+        <div class="col s12 l3">
+          <div id="footer-email-copy" class="footer-email-copy hidden">
+            <input type="text" class="grey-text text-lighten-3" readonly>
+          </div>
         </div>
       </div>
     </div>

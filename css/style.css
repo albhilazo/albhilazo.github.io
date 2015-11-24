@@ -186,8 +186,12 @@ body {
     margin-top: 0.8rem;
 }
 
-#contact a {
-    color: #006064;
+#contact .resume-section-card .btn {
+    margin: 0;
+}
+
+#contact .card-content.contact-link {
+    text-align: center;
 }
 
 .footer-links {
@@ -205,12 +209,21 @@ body {
     padding: 0.5rem;
 }
 
-.col.footer-email-col {
+.contact-email-copy,
+.footer-email-copy {
     text-align: center;
     padding-top: 0.25rem;
 }
 
-input.footer-email-copy {
+.contact-email-copy input {
+    color: #006064;
+    text-align: center;
+    height: 2rem;
+    width: 75%;
+    border: 1px solid #006064;
+    margin: 0;
+}
+.footer-email-copy input {
     text-align: center;
     height: 2rem;
     width: 75%;

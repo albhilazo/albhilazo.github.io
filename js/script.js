@@ -32,14 +32,15 @@ var showEmailCopy = function(e) {
 
     // this = element with attached event
     var emailCopy = this.relatedCopy;
+    emailCopyInput = emailCopy.getElementsByTagName('input')[0];
     if( emailCopy.classList.contains('hidden') ) {
         // Show
         emailCopy.classList.remove('hidden');
-        emailCopy.value = em1 + em2 + '@' + domain + '.' + topdomain;
+        emailCopyInput.value = em1 + em2 + '@' + domain + '.' + topdomain;
     } else {
         // Hide
         emailCopy.classList.add('hidden');
-        emailCopy.value = '';
+        emailCopyInput.value = '';
     }
 };
 
@@ -47,3 +48,8 @@ var showEmailCopy = function(e) {
 var footerEmailShow = document.getElementById('footer-email-show');
 footerEmailShow.relatedCopy = document.getElementById('footer-email-copy');
 footerEmailShow.addEventListener('click', showEmailCopy);
+
+// Contact email button
+var contactEmailShow = document.getElementById('contact-email-show');
+contactEmailShow.relatedCopy = document.getElementById('contact-email-copy');
+contactEmailShow.addEventListener('click', showEmailCopy);
