@@ -29,6 +29,10 @@ body {
 
 
 /* Customs */
+.hidden {
+    display: none;
+}
+
 #brand-logo {
     font-family: courier;
 }
@@ -188,6 +192,7 @@ body {
 
 .footer-links {
     text-align: center;
+    margin: 0;
 }
 
 .footer-links li {
@@ -198,6 +203,19 @@ body {
 .footer-links a {
     font-size: 2rem;
     padding: 0.5rem;
+}
+
+.col.footer-email-col {
+    text-align: center;
+    padding-top: 0.25rem;
+}
+
+input.footer-email-copy {
+    text-align: center;
+    height: 2rem;
+    width: 75%;
+    border: 1px solid #9e9e9e;
+    margin: 0;
 }
 
 
