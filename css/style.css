@@ -261,6 +261,10 @@ body {
     margin-top: -12px;
 }
 
+.cd-timeline-content::before {
+  border-right: 7px solid #e0f2f1;
+}
+
 @media only screen and (min-width: 1170px) {
   #cd-timeline::before {
     left: 23%;
