@@ -7,6 +7,7 @@
 <font-face units-per-em="1024" ascent="960" descent="-64" />
 <missing-glyph horiz-adv-x="1024" />
 <glyph unicode="&#x20;" horiz-adv-x="512" d="" />
+<glyph unicode="&#xe20e;" glyph-name="menu" d="M128 682.667h768v-86h-768v86zM128 384.667v84h768v-84h-768zM128 170.667v86h768v-86h-768z" />
 <glyph unicode="&#xe259;" glyph-name="school" d="M512 810.667l470-256v-342h-86v296l-384-210-470 256zM214 376.667l298-164 298 164v-172l-298-162-298 162v172z" />
 <glyph unicode="&#xe265;" glyph-name="account_balance" d="M490 896.667l406-214v-86h-810v86zM682 512.667h128v-300h-128v300zM86 0.667v128h810v-128h-810zM426 512.667h128v-300h-128v300zM170 512.667h128v-300h-128v300z" />
 <glyph unicode="&#xe284;" glyph-name="code" d="M622 230.667l198 196-198 196 60 60 256-256-256-256zM402 230.667l-60-60-256 256 256 256 60-60-198-196z" />

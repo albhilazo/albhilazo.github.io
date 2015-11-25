@@ -6,23 +6,27 @@ body {
 
 
 /* Adapting tabs to navbar */
-.tabs {
+.tabs.header-tabs {
     width: 45% !important;
     background-color: inherit;
     height: inherit;
 }
 
-.tabs .tab {
+.tabs.header-tabs .tab {
     height: inherit;
     line-height: inherit;
 }
 
-.tabs .tab a {
+.tabs.header-tabs .tab a {
     color: #fff;
 }
 
-.tabs .indicator {
+.tabs.header-tabs .indicator {
     background-color: #80deea;
+}
+
+.side-tabs {
+    width: 240px !important;
 }
 
 
@@ -378,6 +382,9 @@ main {
 }
 .icon-stackoverflow:before {
     content: "\e90e";
+}
+.icon-menu:before {
+    content: "\e20e";
 }
 .icon-school:before {
     content: "\e259";

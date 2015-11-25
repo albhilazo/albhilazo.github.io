@@ -1,3 +1,11 @@
+/* Materialize mobile collapse button */
+$(".button-collapse").sideNav({closeOnClick: true});
+
+$("#mobile-tabs").tabs();
+
+
+
+
 /* On tab click show a random logo */
 var tabs = document.getElementsByClassName('tab');
 var brandLogo = document.getElementById('brand-logo');
